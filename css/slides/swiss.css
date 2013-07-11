@@ -129,7 +129,10 @@ font-size: 1.5em;
 .snow-container {
       background: url(../../img/prague.jpg) no-repeat;
       margin: 0 auto;
-      height: 600px;
+      margin-top: 40px!important;
+      height: 541px;
+      width: 970px;
+      float: right;
     }
 
     .snow-pattern {
