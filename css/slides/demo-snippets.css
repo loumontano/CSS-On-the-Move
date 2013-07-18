@@ -1,0 +1,83 @@
+#code-snippet {
+  width: 620px;
+  float: right;
+  margin: 100px;
+}
+
+
+/*TRANSFORM STYLES*/
+
+#menu-container {
+  width: 325px;
+  background-color: #f5f5f5;
+  margin: 30px 0 0 -25px;
+}
+
+#menu-container > h6 {
+  width: 100%;
+  background-color: #ec4f43;
+  color: #FFF!important;
+  font-family: "HelveticaNeue-Light", sans-serif;
+  line-height: 55px!important;
+  font-size: 25px;
+  text-indent: 20px!important;
+  font-weight: 200;
+  position: static!important;
+  padding: 0;
+}
+
+#menu-container > h2 {
+  width: 100%;
+  background-color: #000;
+  color: #FFF!important;
+  font-family: "HelveticaNeue-Light", sans-serif!important;
+  line-height: 40px;
+  font-size: 18px;
+  text-indent: 20px;
+  border-bottom: 0;
+  font-weight: 200;
+}
+
+#menu-container ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#menu-container li {
+  border-bottom: 1px solid #c4c4c4;
+  line-height: 58px;
+  list-style: none;
+  padding: 0;
+  color: #929090;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light", sans-serif;
+}
+
+#menu-container li:last-child {
+  border-bottom: 0;
+}
+
+#menu-container li a {
+  text-decoration: none;
+  color: #929090!important;
+  display: block;
+  width: 100%;
+  background: url(../../img/demos/menu-off.png) no-repeat  20px;
+  text-indent: 50px;
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+#menu-container li a:hover {
+  text-decoration: none!important;
+  background: url(../../img/demos/menu-on.png) no-repeat  20px #009083;
+  color: #FFF!important;
+  -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+/*-----////------*/
