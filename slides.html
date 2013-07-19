@@ -8,9 +8,9 @@
 	<link href="css/slides/deck.navigation.css" rel="stylesheet" type="text/css" />
 	<link href="css/slides/deck.status.css" rel="stylesheet" type="text/css" />
 	<link href="css/slides/swiss.css" rel="stylesheet" type="text/css" />
-	<link href="css/slides/demo-snippets.css" rel="stylesheet" type="text/css" />
 	<link href="css/slides/horizontal-slide.css" rel="stylesheet" type="text/css" />
-	<link href="css/caca.css" rel="stylesheet" type="text/css" />
+	<link href="css/demo-styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/slides/demo-snippets.css" rel="stylesheet" type="text/css" />
 	<script src="js/Three.js"></script>
 	<script src="js/RequestAnimationFrame.js"></script>
 	<script src="js/slides/modernizr.custom.js"></script>
@@ -78,23 +78,23 @@
 	<section id="usage" class="slide">
 		<h2>Types of animations</h2>
 
-		<div id="code-snippet">
+		<div class="code-snippet">
 			<a class="jsbin-embed" href="http://jsbin.com/usemox/1/embed?live">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
 		</div>
 
 		<ul class="wots" style="margin: 30px 40px;">
 			<h3 class="subtitle">Transform</h3>
-			<div id="menu-container">
-				<h6>Interests</h6>
-				<h2>Select one</h2>
-				<ul>
-					<li><a href="">Sports</a></li>
-					<li><a href="">Theatre</a></li>
-					<li><a href="">Wildlife</a></li>
-					<li><a href="">Music</a></li>
-					<li><a href="">Movies</a></li>
-					<li><a href="">Beauty</a></li>
-					<li><a href="">Travel</a></li>
+			<div class="menu-container">
+				<h6 class="demo-menu-title">Interests</h6>
+				<h2 class="demo-menu-subtitle">Select one</h2>
+				<ul class="demo-menu-links">
+					<li><a href="" class="demo-menu-link">Sports</a></li>
+					<li><a href="" class="demo-menu-link">Theatre</a></li>
+					<li><a href="" class="demo-menu-link">Wildlife</a></li>
+					<li><a href="" class="demo-menu-link">Music</a></li>
+					<li><a href="" class="demo-menu-link">Movies</a></li>
+					<li><a href="" class="demo-menu-link">Beauty</a></li>
+					<li><a href="" class="demo-menu-link">Travel</a></li>
 				</ul>
 			</div>
        	</ul>
@@ -188,14 +188,36 @@
 
 	<section id="types-transition1" class="slide">
 		<h2>Types of animations</h2>
-		<ul class="wots" style="margin: 30px 40px;">
+		<ul class="wots" style="margin: 30px 40px; width: 100%;">
 			<h3 class="subtitle">Animation</h3>
-			<li>Animation demo content</li>
+			<div class="demo-animation-container">
+
+				<div class="demo-animation cloudy-container">
+					<div class="cloudy-pattern"></div>
+					<div class="demo-home-title cloud-title"></div>
+				</div>
+
+				<div class="demo-animation storm-container">
+					<div class="storm-pattern"></div>
+					<div class="storm-icon"></div>
+					<div class="demo-home-title storm-title"></div>
+				</div>
+
+				<div class="demo-animation sunny-container">
+					<div class="sunny-animation"></div>
+					<div class="demo-home-title sunny-title"></div>
+				</div>
+
+				<div class="demo-animation rain-container">
+					<div class="rain-pattern"></div>
+					<div class="demo-home-title rain-title"></div>
+				</div>
+
+				
+			</div>
        	</ul>
 
 		<!--<a class="jsbin-embed" href="http://jsbin.com/eximox/4/embed?live">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>-->
-
-		<div class="footer"><img src="img/logo.jpg" /></div>
 	</section>
 
 	<section id="types-transition1" class="slide">
