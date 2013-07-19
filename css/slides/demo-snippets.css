@@ -116,7 +116,15 @@
 
 .sunny-container {
   background: #fae003;
+  -webkit-animation: sunny-bg 2s linear infinite;
 }
+
+@-webkit-keyframes sunny-bg {
+  0% {background: #fae003;}
+  50% {background: #fff600;}
+  100% {background: #fae003;}
+}
+
 
 .storm-container {
   background: #aa2363;
