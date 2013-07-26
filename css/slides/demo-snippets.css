@@ -220,3 +220,100 @@
 }
 
 
+/*----------------------------*\
+  $TRANSITION
+\*----------------------------*/
+.deck-container .demo-transition-container {
+  background: #000;
+  padding: 45px 35px;
+  float: left;
+  margin: 20px 0 0 30px;
+}
+
+.deck-container .demo-bt-back,
+.deck-container .demo-bt-next {
+  background: url(../../img/demos/sprite-arrows.png);
+  width: 23px;
+  height: 40px;
+  display: inline-block;
+}
+
+.deck-container .demo-bt-back {
+  background-position: 0 0;
+  margin-right: 40px;
+  position: relative;
+  bottom: 110px;
+}
+
+.deck-container .demo-bt-back:hover {
+  background-position: 0 -40px;
+}
+
+.deck-container .demo-bt-next {
+  background-position: -31px 0;
+  position: relative;
+  top: 0;
+}
+
+.deck-container .demo-bt-next:hover {
+  background-position: -31px -40px;
+}
+
+.deck-container .demo-photo-slide {
+  width: 100%;
+  margin: 0;
+}
+
+.deck-container .demo-photo-slide li {
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+/*.deck-container .demo-photo-slide li .caption-cont {
+  position: absolute;
+  bottom: 0; 
+}*/
+
+.deck-container .demo-photo-slide li .bg-demo-caption {
+  background-color: rgba(0,0,0,.7);
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
+  color: #FFF;
+  font-size: .8em;
+  font-weight: 400;
+  width: 100%;
+}
+
+
+.deck-container .demo-photo-slide li .caption-cont .bg-demo-caption strong {
+  color: #FFF;
+  font-size: .8em;
+  font-weight: normal;
+}
+
+.deck-container .demo-photo-slide li .caption-cont .bg-demo-caption .date {
+  font-weight: 200;
+  font-size: .5em;
+  color: #FFF;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
