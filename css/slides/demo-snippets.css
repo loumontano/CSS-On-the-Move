@@ -359,9 +359,49 @@
           transform: scale(1);
 }
 
+/*PIC04*/
 
 
+.deck-container .demo-photo-slide li.caption-cont {
+  overflow: visible;
+  -webkit-perspective: 1300px;
+}
 
+.deck-container .demo-photo-slide li.caption-cont img {
+  width: 100%;
+  display: block;
+  -webkit-transition: 0.5s;
+}
+
+.deck-container .demo-photo-slide li.caption-cont figcaption {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  top: 0;
+  left: 0;
+  background: #E8155C;
+  padding: 20px;
+  color: #FFF;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-transition: 500ms;
+  -webkit-transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.deck-container .demo-photo-slide li.caption-cont figcaption h3 {
+  font-size: 28px;
+  margin: 60px 0 20px;
+}
+
+.deck-container .demo-photo-slide li.caption-cont:hover figcaption {
+  -webkit-transform: rotateY(360deg);
+}
+
+.deck-container .demo-photo-slide li.caption-cont:hover img {
+  -webkit-transform: rotateY(180deg);
+}
 
 
 
