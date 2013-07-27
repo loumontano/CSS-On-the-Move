@@ -91,8 +91,8 @@
 .slide .demo-animation {
   margin-right: 15px;
   margin-top: 40px!important;
-  height: 670px;
-  width: 400px;
+  height: 570px;
+  width: 23.5%;
   float: right;
   position: relative;
 }
@@ -102,8 +102,9 @@
   height: 463px;
   position: absolute;
   z-index: 20;
-  top: 160px;
-  left: 100px;
+  top: 120px;
+  left: 50px;
+  -webkit-transform: scale(.8);
 }
 
 .rain-container {
@@ -193,7 +194,7 @@
   background-image: url('../../img/demos/sun.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 45px;
+  top: 30px;
   left: 145px;
   -webkit-animation: sunny 2s linear infinite;
 }
@@ -223,6 +224,10 @@
 /*----------------------------*\
   $TRANSITION
 \*----------------------------*/
+.deck-container.demos {
+  width: 100%;
+}
+
 .deck-container .demo-transition-container {
   background: #000;
   padding: 45px 35px;
@@ -252,7 +257,7 @@
 .deck-container .demo-bt-next {
   background-position: -31px 0;
   position: relative;
-  top: 0;
+  bottom: 110px;
 }
 
 .deck-container .demo-bt-next:hover {
