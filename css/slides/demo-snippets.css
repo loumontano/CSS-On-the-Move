@@ -232,7 +232,7 @@
   background: #000;
   padding: 45px 35px;
   float: left;
-  margin: 20px 0 0 30px;
+  margin: 50px 0 0 30px;
 }
 
 .deck-container .demo-bt-back,
@@ -247,7 +247,7 @@
   background-position: 0 0;
   margin-right: 40px;
   position: relative;
-  bottom: 110px;
+  top: 0;
 }
 
 .deck-container .demo-bt-back:hover {
@@ -257,7 +257,7 @@
 .deck-container .demo-bt-next {
   background-position: -31px 0;
   position: relative;
-  bottom: 110px;
+  top: 0;
 }
 
 .deck-container .demo-bt-next:hover {
@@ -296,7 +296,7 @@
   font-size: .8em;
   font-weight: 400;
   position: absolute;
-  bottom: -70px;
+  bottom: -90px;
   width: 88%;
   -webkit-transition: all .2s ease-out;
      -moz-transition: all .2s ease-out;
@@ -304,22 +304,22 @@
 }
 
 .deck-container .demo-photo-slide li .caption-cont:hover .bg-demo-caption {
-  bottom: 0;
+  bottom: 20px;
 }
 
 
 .deck-container .demo-photo-slide li .caption-cont .bg-demo-caption strong {
   color: #FFF;
-  font-size: .8em;
-  font-weight: normal;
+  font-size: 14px!important;
+  font-weight: 400!important;
 }
 
 .deck-container .demo-photo-slide li .caption-cont .bg-demo-caption .date {
-  font-weight: 200;
-  font-size: 0.7em;
+  font-weight: 200!important;
+  font-size: 10px!important;
   color: #FFF;
   display: block;
-  line-height: 20px;
+  line-height: 15px;
 }
 
 /*PIC03*/
@@ -393,6 +393,8 @@
 .deck-container .demo-photo-slide li.caption-cont figcaption h3 {
   font-size: 28px;
   margin: 60px 0 20px;
+  color: #FFF;
+  font-weight: 200;
 }
 
 .deck-container .demo-photo-slide li.caption-cont:hover figcaption {
