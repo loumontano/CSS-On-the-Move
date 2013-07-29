@@ -230,7 +230,7 @@
 
 .deck-container .demo-transition-container {
   background: #000;
-  padding: 45px 35px;
+  padding: 45px 35px 25px;
   float: left;
   margin: 50px 0 0 30px;
 }
@@ -304,13 +304,13 @@
 }
 
 .deck-container .demo-photo-slide li .caption-cont:hover .bg-demo-caption {
-  bottom: 20px;
+  bottom: 16px;
 }
 
 
 .deck-container .demo-photo-slide li .caption-cont .bg-demo-caption strong {
   color: #FFF;
-  font-size: 14px!important;
+  font-size: 12px!important;
   font-weight: 400!important;
 }
 
